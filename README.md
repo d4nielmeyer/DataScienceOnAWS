@@ -1,4 +1,4 @@
-# Practical Data Science On AWS
+# Practical Data Science On AWS *[work in progress]*
 
 This Specialization is designed for data-focused developers, scientists, and analysts familiar with the Python and SQL programming languages and want to learn how to build, train, and deploy scalable, end-to-end ML pipelines - both automated and human-in-the-loop - in the AWS cloud.
 Each of the 10 weeks features a comprehensive lab developed specifically for this Specialization that provides hands-on experience with state-of-the-art algorithms for natural language processing (NLP) and natural language understanding (NLU), including BERT and FastText using Amazon SageMaker.
