@@ -1,0 +1,15 @@
+# DataScienceOnAWS
+
+This Specialization is designed for data-focused developers, scientists, and analysts familiar with the Python and SQL programming languages and want to learn how to build, train, and deploy scalable, end-to-end ML pipelines - both automated and human-in-the-loop - in the AWS cloud.
+Each of the 10 weeks features a comprehensive lab developed specifically for this Specialization that provides hands-on experience with state-of-the-art algorithms for natural language processing (NLP) and natural language understanding (NLU), including BERT and FastText using Amazon SageMaker.
+
+Overall, the course includes **3 chapters** covering the following topics:
+
+### 1. Analyze Datasets and Train ML Models using AutoML:
+The first course of the Practical Data Science Specialization refers to foundational concepts for exploratory data analysis (EDA), automated machine learning (AutoML), and text classification algorithms. With Amazon SageMaker Clarify and Amazon SageMaker Data Wrangler, a dataset for statistical bias will be analyzed, transformed into machine-readable features, and the most important features selected to train a multi-class text classifier. Afterwards automated machine learning (AutoML) will be performed to automatically train, tune, and deploy the best text-classification algorithm for the given dataset using Amazon SageMaker Autopilot. Next, using Amazon SageMaker BlazingText, a highly optimized and scalable implementation of the popular FastText algorithm, a text classifier will be trained with very little code.
+
+### 2. Build, Train, and Deploy ML Pipelines using BERT:
+In the second course of the Practical Data Science Specialization, the goal is to automate a natural language processing task by building an end-to-end machine learning pipeline using Hugging Face’s highly-optimized implementation of the state-of-the-art BERT algorithm with Amazon SageMaker Pipelines. The pipeline will first transform the dataset into BERT-readable features and store the features in the Amazon SageMaker Feature Store. It will then fine-tune a text classification model to the dataset using a Hugging Face pre-trained model, which has learned to understand the human language from millions of Wikipedia documents. Finally, the pipeline will evaluate the model’s accuracy and only deploy the model if the accuracy exceeds a given threshold.
+
+### 3. Optimize ML Models and Deploy Human-in-the-Loop Pipelines:
+In the third course of the Practical Data Science Specialization, the focus lies on a series of performance-improvement and cost-reduction techniques to automatically tune model accuracy, compare prediction performance, and generate new training data with human intelligence.  After tuning the text classifier using Amazon SageMaker Hyper-parameter Tuning (HPT), two model candidates will be deployed into an A/B test to compare their real-time prediction performance and automatically scale the winning model using Amazon SageMaker Hosting. Lastly, a human-in-the-loop pipeline will be set up to fix misclassified predictions and generate new training data using Amazon Augmented AI and Amazon SageMaker Ground Truth.
